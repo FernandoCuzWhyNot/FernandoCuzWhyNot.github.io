@@ -1,2 +1,0 @@
-# FernandoCuzWhyNot.github.io
-hooks
