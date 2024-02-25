@@ -1,7 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-/*
-ALL BELOW IS A SKID FROM A PAGE, IM JUST TRYING TO GET USED TO THIS
-*/
 body {
     margin: 0;
     padding: 0;
@@ -11,22 +8,24 @@ body {
 }
 #tabs-container {
     position: absolute;
-    top: 25px;
+    top: 30px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 2;
+    width: calc(100% - 1px);
 }
 .tab {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 100px;
-    padding: 8px 16px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0);
+    padding: 8px 18px;
+    border: 2px solid white;
+    border-radius: 16px;
+    background-color: transparent;
     color: white;
     font-size: 18px;
     cursor: pointer;
@@ -41,6 +40,3 @@ body {
     box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
     position: relative;
 }
-/* 
-Just testing :clueless:
-*/
