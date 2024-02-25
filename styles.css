@@ -6,6 +6,10 @@ body {
     font-family: Roboto, sans-serif;
     overflow-y: auto;
 }
+video {
+   width: 100%;
+   aspect-ratio: 16/9;
+}
 #tabs-container {
     position: fixed;
     top: 10px;
@@ -67,42 +71,25 @@ body {
     background-color: #0d0d0d;
     z-index: 3;
 }
-footer {
+.footer-left {
+    font-size: 12px;
+    color: gray;
     position: fixed;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     width: 100%;
-    background-color: #0d111700;
-    color: white;
     padding: 10px;
     text-align: left;
     z-index: 11
 }
-footerother {
+.footer-right {
+   font-size: 12px;
+    color: gray;
     position: fixed;
-    bottom: 0;
-    left: 0;
+    bottom: -1px;
+    right: 0;
     width: 100%;
-    background-color: #0d111700;
-    color: white;
     padding: 10px;
     text-align: right;
     z-index: 11
-}
-
-footerother p {
-   color: gray;
-   margin: -2.5px 20px;
-}
-footherother p:hover {
-    position: relative;
-    cursor: pointer;
-    color: white;
-footer p {
-   color: gray;
-   margin: -2.5px 0px;
-}
-footer a {
-   color: gray;
-   text-decoration: none;
 }
