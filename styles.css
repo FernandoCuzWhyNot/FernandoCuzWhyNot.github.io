@@ -7,6 +7,15 @@ body {
     font-family: Roboto, sans-serif;
     overflow: hidden;
 }
+#tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding-top: 20px;
+    position: relative;
+    z-index: 2;
+}
 /* 
 Just testing :clueless:
 */
