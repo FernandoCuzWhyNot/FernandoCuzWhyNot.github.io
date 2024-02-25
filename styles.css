@@ -94,6 +94,10 @@ footerother p {
    color: gray;
    margin: -2.5px 20px;
 }
+footherother p:hover {
+    position: relative;
+    cursor: pointer;
+    color: white;
 footer p {
    color: gray;
    margin: -2.5px 0px;
