@@ -11,21 +11,12 @@ body {
 }
 #tabs-container {
     position: absolute;
-    top: 30px;
+    top: 50px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;
-}
-#tabs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 45px;
-    padding-top: 20px;
-    position: relative;
     z-index: 2;
 }
 .tab {
