@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
+/*
+ALL BELOW IS A SKID FROM A PAGE, IM JUST TRYING TO GET USED TO THIS
+*/
 body {
     margin: 0;
     padding: 0;
@@ -15,6 +17,30 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
+}
+#tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding-top: 20px;
+    position: relative;
+    z-index: 2;
+}
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
     z-index: 2;
 }
 /* 
